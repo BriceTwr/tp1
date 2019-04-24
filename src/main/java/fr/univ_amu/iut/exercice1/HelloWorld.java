@@ -2,7 +2,7 @@ package fr.univ_amu.iut.exercice1;
 
 public class HelloWorld {
     public static String hello(String s) {
-        if (s == "" || s == null)
+        if (s == "" || s == null || s.isEmpty())
             return "Hello, World!";
         throw new RuntimeException("Not yet implemented !");
     }

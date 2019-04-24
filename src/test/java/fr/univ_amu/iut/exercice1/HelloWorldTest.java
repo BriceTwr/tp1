@@ -15,7 +15,7 @@ public class HelloWorldTest {
         assertThat(HelloWorld.hello(null)).isEqualTo("Hello, World!");
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void test_hello_with_empty_string_is_compared_by_value() {
         assertThat(HelloWorld.hello(new String())).isEqualTo("Hello, World!");
