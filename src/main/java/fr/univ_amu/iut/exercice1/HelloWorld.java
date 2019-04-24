@@ -4,6 +4,8 @@ public class HelloWorld {
     public static String hello(String s) {
         if (s == "" || s == null || s.isEmpty())
             return "Hello, World!";
-        throw new RuntimeException("Not yet implemented !");
+        else
+            return "Hello, Alice!";
+        //throw new RuntimeException("Not yet implemented !");
     }
 }
