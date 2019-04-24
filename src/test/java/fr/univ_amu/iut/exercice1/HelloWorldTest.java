@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloWorldTest {
 
-    @Ignore
+    //@Ignore
     @Test
     public void test_hello_with_no_name_should_return_helloworld() {
         assertThat(HelloWorld.hello("")).isEqualTo("Hello, World!");
