@@ -27,7 +27,7 @@ public class HelloWorldTest {
         assertThat(HelloWorld.hello("Alice")).isEqualTo("Hello, Alice!");
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void test_hello_should_return_hello_bob_when_bob() {
         assertThat(HelloWorld.hello("Bob")).isEqualTo("Hello, Bob!");
